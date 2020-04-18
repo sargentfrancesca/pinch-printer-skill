@@ -126,7 +126,7 @@ class PinchPrinter(MycroftSkill):
             recipe = f"{ingredients} {steps}"
 
             self.speak_dialog('printer.pinch', data={
-                'title': title,
+                'title': pinch.title,
                 'recipe': recipe,
                 'query': query
             })
