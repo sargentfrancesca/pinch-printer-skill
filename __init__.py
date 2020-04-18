@@ -114,7 +114,6 @@ class PinchPrinter(MycroftSkill):
         query = message.data.get('query')
 
         pinch = PinchOfNomScraper(query=query)
-        self.log.info(f"Got class for query {query}", pinch)
         status_code, body = pinch.get_recipes()
         pinch.parse_recipes(body)
 
