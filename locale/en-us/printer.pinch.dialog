@@ -1,2 +1,2 @@
-Here's what i found for {query}: {recipe}
-Okay, i found this: {recipe}
+Here's what i found for {query}: {title} {recipe}
+Okay, i found this: {title} {recipe}
