@@ -6,7 +6,7 @@
 #
 dependencies:
 #   # Pip dependencies on PyPI
-#   python:
+  python:
     - requests
     - beautifulsoup4
     - inquirer
