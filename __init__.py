@@ -85,7 +85,7 @@ class PinchOfNomScraper(object):
             name = ingredient.select('.wprm-recipe-ingredient-name')[0].string
             ingredients.append(f'{amount} {unit} {name}')
 
-        self.ingredients = frozenset(ingredients)
+        self.ingredients = ingredients
         print(self.ingredients) 
         return self.ingredients
     
